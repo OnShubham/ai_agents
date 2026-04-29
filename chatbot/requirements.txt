@@ -1,0 +1,18 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+
+# PDF loading
+langchain
+langchain-community
+langchain-text-splitters
+pypdf
+
+# Embeddings + Reranker
+sentence-transformers
+
+# Vector DB
+chromadb
+
+# LLM
+openai
