@@ -1,0 +1,17 @@
+[project]
+name = "ai-agents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "langchain",
+    "langchain-community",
+    "langchain-openai",
+    "python-dotenv",
+    "chromadb",
+    "pypdf",
+    "sentence-transformers",
+]
